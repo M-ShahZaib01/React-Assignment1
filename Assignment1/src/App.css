@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.card{
+  max-width: 540px;
+  margin: 2px;
+}
+.btn1{
+  margin-right: 12px;
+}
+.w-70{
+  width: 70%;
+}
+.s1-w{
+  width: 25%;
+}
+.about{
+  background-color: rgba(66, 64, 64, 0.048);
+  padding: 2%;
+  border-radius: 2%;
+}
+.title-text{
+  width: 50%;
+}
+.archive ul{
+  list-style: none;
+}
+
+@media screen and (min-width: 480px) {
+  .w-70 {
+    width: 60% !important;
+  }
+  .s1-w {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 480px)
+{
+  .flex-direction{
+    flex-direction: column !important;
+    
+  }
+  .s1-w, .s2-w, .title-text{
+      width:100% !important;
+  }
+  .card-box{
+    flex-direction: column;
+  }
+}
